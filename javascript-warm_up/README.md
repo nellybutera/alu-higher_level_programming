@@ -8,7 +8,7 @@
 - ran github command "git config core.fileMode true" to stop github from changing my files permissions
 ```
 
-### To change all file permission at the same time you can run:
+### To change all file permission at the same time you can run in Ubuntu/WSL:
 
 ```bash
 find . -type f -name "*.js" -exec git update-index --chmod=+x {} \;
