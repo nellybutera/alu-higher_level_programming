@@ -5,12 +5,8 @@
 
 ```bash
 - added a workspace settings to add LF Line Endings in my files
-- ran github command "git config core.fileMode true" to stop github from changing my files permissions
-```
+- ran github command to stop github from changing my files permission
 
-### To change all file permission at the same time you can run in Ubuntu/WSL:
-
-```bash
-find . -type f -name "*.js" -exec git update-index --chmod=+x {} \;
+- git update-index --chmod=+x filename.js
 
 ```
